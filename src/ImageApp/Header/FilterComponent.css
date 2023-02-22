@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.form_div{
+  margin-top: 100px;
+    /* padding-top: 168px; */
+  display: block;
+  margin-left: 130px;
+  margin-right: 140px;
+  /* border: 2px solid white; */
+  width: 1135px;
+  height: 60px;
+  position: absolute;
+}
+.search_bar{
+    height: 54px;
+    width: 977px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+}
+.for_btn{
+    height: 54px;
+    width: 130px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}

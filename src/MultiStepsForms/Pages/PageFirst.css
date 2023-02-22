@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form_content{
+    display: flex;
+    justify-content: space-around;
+}
+.for_section{
+   width: 390px;
+}
+.gender_block{
+    width: 315px;
+    margin-left: 2px;
+}
+.gender-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -25px;
+}
+.gender-list dd {
+    margin-left: 25px !important;
+    margin-right: 10px;
+}
+.hor_list{
+  display: flex;
+  flex-direction: row;
+}
+.btn-container{
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media(max-width :425px){
+    .form_content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .for_section {
+        width: 365px;
+    }
+}

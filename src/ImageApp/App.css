@@ -1,0 +1,15 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.main_container{
+    background-color: #a9a9a966;
+    height: 1078px;
+}
+.for_word{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 130px;
+    font-size: 20px;
+}
